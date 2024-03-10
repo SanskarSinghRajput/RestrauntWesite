@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Restaurant Website Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+* Description
+* Features
+* Technologies Used
+* Installation
 
-## Available Scripts
 
-In the project directory, you can run:
+## Note
 
-### `npm start`
+This project is intended as a learning tool and can be used as a sample project for educational or personal projects.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+***
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is the frontend of a restaurant website built using React and Tailwind CSS. It provides a modern and responsive user interface for users to explore the restaurant's menu, place orders, make reservations, and view location and contact information.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***
+## Features
 
-### `npm run build`
+* Menu Display: Displays the restaurant's menu with categories and detailed descriptions of dishes.
+  
+* Online Ordering: Allows users to place orders online for pickup or delivery.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Reservation System: Provides a reservation system for users to book tables at the restaurant.
+  
+* Filtering Feature: Enables users to filter menu items based on various criteria such as category, dietary restrictions, price range, and more, providing a personalized browsing experience.
+  
+***
+## Screenshots
+![Screenshot 2023-07-25 210844](https://github.com/SanskarSinghRajput/SanskarSinghRajput/blob/main/Restraunt/Restruant1.png)
+![Screenshot 2023-07-25 211309](https://github.com/SanskarSinghRajput/SanskarSinghRajput/blob/main/Restraunt/Restruant2.png)
+<details>
+  <summary>More screenshots</summary>
+  
+![Screenshot 2023-07-25 211451](https://github.com/SanskarSinghRajput/SanskarSinghRajput/blob/main/Restraunt/Restruant3.png)
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+***
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+* React.js
+* Tailwind CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+***
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Create React App using
+    npm create-react-app appname
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install the required packages.
+    npm install
 
-## Learn More
+3. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
